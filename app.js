@@ -12,5 +12,5 @@ for (let letter of letters) {
   letter.style.color = randomRGB();
   setInterval(function () {
     letter.style.color = randomRGB()
-  }, 1000);
+  }, 500);
 }
